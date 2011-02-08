@@ -1,13 +1,13 @@
-\name{chapman86}
-\alias{chapman86}
+\name{snails}
+\alias{snails}
 \docType{data}
 \title{
 Dataset - Growth rates of snails on large boulders on different rock shores.
 }
 \description{
-Snails were transplanted from (origin) and to different shores. Several boulders were used on each shore. Cages with snail of each origin on each boulder were replicated. All factors (origin, shore, boulder and cage) are random.
+This design was extracted from Underwood (1997) but data are artifitial. Snails were transplanted from origin to different shores. Several boulders were used on each shore. Cages with snail of each origin on each boulder were replicated. All factors (origin, shore, boulder and cage) are random.
 }
-\usage{data(chapman86)}
+\usage{data(snails)}
 \format{
   A data frame with 240 observations on the following 6 variables.
   \describe{
@@ -20,11 +20,9 @@ Snails were transplanted from (origin) and to different shores. Several boulders
   }
 }
 \references{
-Chapman, M.G. 1986. Assessment of some controls in experimental transplants of intertidal gastropods. \emph{Journal of Experimental Marine Biology and Ecology}, \bold{103}: 181-201.\cr
-\cr
-Underwood, A.J., 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.
+Underwood, A.J. 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.
 }
 \examples{
-data(chapman86)
+data(snails)
 }
 \keyword{datasets}

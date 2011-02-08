@@ -51,12 +51,12 @@ gad(model)
 ##
 ##
 #Example 3
-data(chapman86)
-O <- as.random(chapman86$origin)
-S <- as.random(chapman86$shore)
-B <- as.random(chapman86$boulder)
-C <- as.random(chapman86$cage)
-model <- lm(growth ~ O + S + O*S + B\%in\%S + O*(B\%in\%S) + C\%in\%(O*(B\%in\%S)), data = chapman86)
+data(snails)
+O <- as.random(snails$origin)
+S <- as.random(snails$shore)
+B <- as.random(snails$boulder)
+C <- as.random(snails$cage)
+model <- lm(growth ~ O + S + O*S + B\%in\%S + O*(B\%in\%S) + C\%in\%(O*(B\%in\%S)), data = snails)
 gad(model)
 }
 \keyword{package}

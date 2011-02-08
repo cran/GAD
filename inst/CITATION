@@ -1,14 +1,14 @@
 citHeader("To cite GAD in publications use:")
 
 citEntry(entry  = "Manual",
-         title  = "GAD: General ANOVA Design",
+         title  = "GAD: General ANOVA Designs",
          author = "Author: Leonardo Sandrini-Neto, Mauricio G. Camargo",
          organization = "Centro de Estudos do Mar da Universidade Federal do Parana (Brazil)",
-         address      = "Av. Beira-mar S/N. Pontal do Parana (PR) - Brazil",
+         address      = "Av. Beira-mar s/n. P.O. Box 50002, Pontal do Parana (PR), CEP:83255000, Brazil",
          year         = version$year,
          textVersion = 
          paste("Sandrini-Neto, L. & Camargo, M.G. (", version$year, ").",
-               "GAD (General ANOVA Design): an R package for ANOVA designs from the general principles. Available on CRAN.",
+               "GAD: an R package for ANOVA designs from general principles. Available on CRAN.",
                sep="")
          )
 
