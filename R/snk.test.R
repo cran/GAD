@@ -130,6 +130,6 @@ function (object, term, among = NULL, within = NULL)
 		}
 	}
 	cat("---")
-	cat("\nSignif. codes: <0.001 <U+2018>***<U+2019> <0.01 <U+2018>**<U+2019> <0.05 <U+2018>*<U+2019> >0.05 <U+2018>ns<U+2019>\n")
+	cat("\nSignif. codes: <0.001 '***' <0.01 '**' <0.05 '*' >0.05 'ns'\n")
 }
 

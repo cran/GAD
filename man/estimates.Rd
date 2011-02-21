@@ -17,9 +17,9 @@ Determines what each mean square estimates in an ANOVA design by a set of proced
 A list of length 3, containing the table of multipliers ($tm), the mean squares estimates ($mse) and the F-ratio versus ($f.versus) for the model.
 }
 \references{
-Cornfield, J. and Tukey, J.W. (1956). Average values of mean squares in factorials. \emph{Annals of Mathematical Statistics}, \bold{27}, 907-949.\cr
+Cornfield, J., Tukey, J.W. 1956. Average values of mean squares in factorials. \emph{Annals of Mathematical Statistics}, \bold{27}, 907-949.\cr
 \cr
-Underwood, A.J., 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.
+Underwood, A.J. 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.
 }
 \author{
   Leonardo Sandrini-Neto (\email{leonardosandrini@gmail.com})
@@ -32,7 +32,7 @@ Underwood, A.J., 1997. \emph{Experiments in Ecology: Their Logical Design and In
 library(GAD)
 data(rohlf95)
 CG <- as.fixed(rohlf95$cages)
-MQ <-as.random(rohlf95$mosquito) 
+MQ <- as.random(rohlf95$mosquito) 
 model_R <- lm(wing ~ CG + CG\%in\%MQ, data = rohlf95)
 estimates(model_R)
 ##

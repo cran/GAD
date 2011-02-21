@@ -18,7 +18,7 @@ Duplicate readings were made on each of three preparations of rat livers from ea
   }
 }
 \references{
-Sokal, R. R. and F. J. Rohlf. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp. 
+Sokal, R.R., Rohlf, F.J. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp. 
 }
 \examples{
 data(rats)

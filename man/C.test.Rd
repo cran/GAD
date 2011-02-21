@@ -30,7 +30,7 @@ Leonardo Sandrini-Neto (\email{leonardosandrini@gmail.com})
   library(GAD)
   data(rohlf95)
   cg <- as.fixed(rohlf95$cages)
-  mq <-as.random(rohlf95$mosquito) 
+  mq <- as.random(rohlf95$mosquito) 
   model <- lm(wing ~ cg + mq\%in\%cg, data = rohlf95)
   C.test(model)
 }

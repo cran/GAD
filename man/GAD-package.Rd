@@ -20,11 +20,11 @@ Mauricio G. Camargo (\email{camargo.ufpr@gmail.com})\cr
 Maintainer: leonardosandrini@gmail.com
 }
 \references{
-Cornfield, J. and Tukey, J.W. (1956). Average values of mean squares in factorials. \emph{Annals of Mathematical Statistics}, \bold{27}, 907-949.\cr
+Cornfield, J., Tukey, J.W. 1956. Average values of mean squares in factorials. \emph{Annals of Mathematical Statistics}, \bold{27}, 907-949.\cr
 \cr
-Sokal, R. R. and F. J. Rohlf. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp.\cr 
+Sokal, R.R., Rohlf, F.J. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp.\cr 
 \cr
-Underwood, A.J., 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.\cr
+Underwood, A.J. 1997. \emph{Experiments in Ecology: Their Logical Design and Interpretation Using Analysis of Variance.} Cambridge University Press, Cambridge.\cr
 }
 \keyword{ package }
 \seealso{
@@ -35,7 +35,7 @@ Underwood, A.J., 1997. \emph{Experiments in Ecology: Their Logical Design and In
 library(GAD)
 data(rohlf95)
 CG <- as.fixed(rohlf95$cages)
-MQ <-as.random(rohlf95$mosquito) 
+MQ <- as.random(rohlf95$mosquito) 
 model <- lm(wing ~ CG + CG\%in\%MQ, data = rohlf95)
 gad(model)
 ##
@@ -56,7 +56,8 @@ O <- as.random(snails$origin)
 S <- as.random(snails$shore)
 B <- as.random(snails$boulder)
 C <- as.random(snails$cage)
-model <- lm(growth ~ O + S + O*S + B\%in\%S + O*(B\%in\%S) + C\%in\%(O*(B\%in\%S)), data = snails)
+model <- lm(growth ~ O + S + O*S + B\%in\%S + O*(B\%in\%S) + C\%in\%(O*(B\%in\%S)), 
+            data = snails)
 gad(model)
 }
 \keyword{package}

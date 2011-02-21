@@ -29,12 +29,12 @@ Underwood, A.J. 1997. \emph{Experiments in Ecology: Their Logical Design and Int
 library(GAD)
 data(rohlf95)
 CG <- as.fixed(rohlf95$cages)
-MQ <-as.random(rohlf95$mosquito) 
+MQ <- as.random(rohlf95$mosquito) 
 model <- lm(wing ~ CG + CG\%in\%MQ, data = rohlf95)
 gad(model)
 ##Check estimates to see model structure
 estimates(model)
-snk.test(model,term='CG:MQ',among='MQ',within='CG')
+snk.test(model,term = 'CG:MQ', among = 'MQ', within = 'CG')
 ##
 ##
 ##Example using snails dataset
@@ -48,10 +48,10 @@ model <- lm(growth ~ O + S + O*S + B\%in\%S + O*(B\%in\%S) + C\%in\%(O*(B\%in\%S
 gad(model)
 ##Check estimates to see model structure
 estimates(model)
-snk.test(model,term='O')
-snk.test(model,term='O:S',among='S',within='O')
+snk.test(model, term = 'O')
+snk.test(model,term = 'O:S', among = 'S', within = 'O')
 #if term O:S:B were significant, we could try 
-snk.test(model,term='O:S:B',among='B',within='O:S')
+snk.test(model, term = 'O:S:B', among = 'B', within = 'O:S')
 }
 \keyword{htest}
 

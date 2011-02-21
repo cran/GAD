@@ -18,7 +18,7 @@ Three different types of cage are tested on the growth of \emph{Aedes intrudens}
   }
 }
 \references{
-Sokal, R. R. and F. J. Rohlf. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp. 
+Sokal, R.R., Rohlf, F.J. 1995. \emph{Biometry: the principles and practice of statistics in biological research.}  3rd edition. W. H. Freeman and Co. New York. 887 pp. 
 }
 \examples{
 data(rohlf95)

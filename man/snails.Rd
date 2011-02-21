@@ -5,7 +5,7 @@
 Dataset - Growth rates of snails on large boulders on different rock shores.
 }
 \description{
-This design was extracted from Underwood (1997) but data are artifitial. Snails were transplanted from origin to different shores. Several boulders were used on each shore. Cages with snail of each origin on each boulder were replicated. All factors (origin, shore, boulder and cage) are random.
+This design was extracted from Underwood (1997) but data are artificial. Snails were transplanted from origin to different shores. Several boulders were used on each shore. Cages with snail of each origin on each boulder were replicated. All factors (origin, shore, boulder and cage) are random.
 }
 \usage{data(snails)}
 \format{
